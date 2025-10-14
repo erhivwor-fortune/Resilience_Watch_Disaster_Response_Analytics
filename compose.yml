@@ -2,7 +2,7 @@ services:
 
   disaster_insurance:
     build: .
-    image: aviatorfortuneerhivwor/disaster_insurance:v1
+    image: bowntulips1/disaster_insurance:v1
     container_name: disaster_insurance
     depends_on:
       - postgres

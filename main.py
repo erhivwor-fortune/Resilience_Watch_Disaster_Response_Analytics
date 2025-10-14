@@ -8,7 +8,7 @@
 # configure postgres database
 
 from dotenv import load_dotenv #dotenv is used to hide sensitive information like API keys.
-from .elt.db_connect import conn, cur, insert_query # Import the database connection and cursor from db_connect.py.
+from .elt.db_connect import conn, cur, insert_query #Import the database connection and cursor from db_connect.py.
 from .elt.extract import extract_data # Import the extract_data function from extract.py.
 
 load_dotenv() # Load environment variables from a .env file.
