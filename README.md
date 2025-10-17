@@ -30,16 +30,15 @@ The Disaster Response KPI Dashboard:
 2. Create a Virtual Environment:
    python -m venv venv
    
-   # Activate virtual environment:
+3. Activate virtual environment:
    # Windows
-   
 venv\Scripts\activate
 
    # Mac/Linux
    
 source venv/bin/activate
 
-3. Install Dependencies
+4. Install Dependencies
 pip install -r requirements.txt
 
 5. Set Up Environment Variables
