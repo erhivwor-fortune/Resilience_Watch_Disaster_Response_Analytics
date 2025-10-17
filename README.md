@@ -29,7 +29,6 @@ Includes automated ETL pipelines built with Python and secure handling of sensit
  
 2. Create a Virtual Environment:
    python -m venv venv
-   python -m venv venv
 
 3. Activate virtual environment:
    # Windows
