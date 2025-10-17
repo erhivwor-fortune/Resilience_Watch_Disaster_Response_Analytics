@@ -27,18 +27,22 @@ The Disaster Response KPI Dashboard:
    ```bash
    git clone https://github.com/erhivwor-fortune/Resilience_Watch_Disaster_Response_Analytics.git
  
-2. Create a Virtual Environment
+2. Create a Virtual Environment:
    python -m venv venv
+   
    # Activate virtual environment:
    # Windows
+   
 venv\Scripts\activate
+
    # Mac/Linux
+   
 source venv/bin/activate
 
 3. Install Dependencies
 pip install -r requirements.txt
 
-4. Set Up Environment Variables
+5. Set Up Environment Variables
 Create a .env file in the project root with:
 API_URL=<FEMA_API_URL>
 DB_HOST=postgres
@@ -47,11 +51,11 @@ DB_USER=admin
 DB_PASSWORD=admin
 DB_NAME=disaster_insurance
 
-5. Build and Run Docker Containers
+7. Build and Run Docker Containers
 docker compose build
 docker compose up -d
 
-6. Verify Database and pgAdmin
+8. Verify Database and pgAdmin
 - Open pgAdmin at http://localhost:5050
 - Log in with credentials from your compose file.
 - Check that disaster_insurance database and disaster table exist.
