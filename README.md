@@ -42,12 +42,13 @@ The project can be used to:
 - Python **3.9+**
 - [Git](https://git-scm.com/)
 - Power BI or Tableau (for dashboard visualization)
+- Astronomer Airflow
 - Virtual environment management (`venv`)
 
 ---
 
 ## **Setup Instructions**
-
+This guide gives instructions on how to setup the project environment and necessary configurations
 ### 1. Clone the repository
     git clone https://github.com/erhivwor-fortune/Resilience_Watch_Disaster_Response_Analytics.git
     cd Resilience_Watch_Disaster_Response_Analytics
