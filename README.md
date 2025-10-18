@@ -41,13 +41,12 @@ Includes automated ETL pipelines built with Python and secure handling of sensit
    source venv/bin/activate
 
 4. Install Dependencies
-    ```bash
-    pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 5. Set Up Environment Variables
 Create a .env file in the project root with:
 
-    ```bash
    API_URL=<FEMA_API_URL>
    
    DB_HOST=postgres
@@ -67,9 +66,9 @@ Create a .env file in the project root with:
 
 7. Verify Database and pgAdmin
     ```bash
-   - Open pgAdmin at http://localhost:5050
-   - Log in with credentials from your compose file.
-   - Check that disaster_insurance database and disaster table exist.
+      - Open pgAdmin at http://localhost:5050
+      - Log in with credentials from your compose file.
+      - Check that disaster_insurance database and disaster table exist.
 
 8. Run ETL Pipeline
     ```bash
