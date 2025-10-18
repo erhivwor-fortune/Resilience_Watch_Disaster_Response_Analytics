@@ -56,12 +56,38 @@ The project can be used to:
     source venv/bin/activate
 
 ### 4. Install dependencies
+    pip install -r requirements.txt
+
 ### 5. Set up enviroment variables
+#### Create a .env file in the project root and add:
+    API_URL=<FEMA_API_URL>
+DB_HOST=postgres
+DB_PORT=5432
+DB_USER=admin
+DB_PASSWORD=admin
+DB_NAME=disaster_insurance
+
 ### 6. Build and run Docker containers
+    docker compose build
+    docker compose up -d
+
 ### 7. Verify database and pgAdmin
-### 8. Dashboard visualization
+Open http://localhost:5050
 
-```bash
-git clone https://github.com/erhivwor-fortune/Resilience_Watch_Disaster_Response_Analytics.git
-cd Resilience_Watch_Disaster_Response_Analytics
+Log in using the credentials from your compose file
 
+Confirm that the disaster_insurance database and disaster table exist
+
+### 8. Run ETL pipeline
+    python main.py
+
+### 9. Dashboard visualization
+Connect Power BI or Tableau to the PostgreSQL database and visualize KPIs such as:
+
+Claims processed
+
+Claims in progress
+
+Resolution time
+
+Customer satisfaction
