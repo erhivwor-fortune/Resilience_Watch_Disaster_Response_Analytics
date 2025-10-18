@@ -46,24 +46,34 @@ Includes automated ETL pipelines built with Python and secure handling of sensit
 
 5. Set Up Environment Variables
 Create a .env file in the project root with:
+ ```bash
    API_URL=<FEMA_API_URL>
+   
    DB_HOST=postgres
+   
    DB_PORT=5432
+   
    DB_USER=admin
+   
    DB_PASSWORD=admin
+   
    DB_NAME=disaster_insurance
 
-6. Build and Run Docker Containers
+7. Build and Run Docker Containers
+ ```bash
    docker compose build
    docker compose up -d
 
-7. Verify Database and pgAdmin
+8. Verify Database and pgAdmin
+ ```bash
 - Open pgAdmin at http://localhost:5050
 - Log in with credentials from your compose file.
 - Check that disaster_insurance database and disaster table exist.
 
 8. Run ETL Pipeline
+ ```bash
    python main.py
+
 This extracts data from the API and inserts it into PostgreSQL.
 Check the database to ensure records have been populated successfully.
 
