@@ -37,11 +37,9 @@ Includes automated ETL pipelines built with Python and secure handling of sensit
    venv\Scripts\activate
 
 # Mac/Linux
-   ```bash
    source venv/bin/activate
 
 4. Install Dependencies
-   ```bash
    pip install -r requirements.txt
 
 5. Set Up Environment Variables
@@ -60,12 +58,10 @@ Create a .env file in the project root with:
    DB_NAME=disaster_insurance
 
 6. Build and Run Docker Containers
-    ```bash
    docker compose build
    docker compose up -d
 
 7. Verify Database and pgAdmin
-    ```bash
       - Open pgAdmin at http://localhost:5050
       - Log in with credentials from your compose file.
       - Check that disaster_insurance database and disaster table exist.
