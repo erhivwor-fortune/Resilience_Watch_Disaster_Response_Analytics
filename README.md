@@ -23,6 +23,7 @@ The Disaster Response KPI Dashboard:
 ### Project Architecture
 Below is the high-level architecture of the Disaster Response KPI Dashboard:
 
+![project architecture](https://github.com/user-attachments/assets/bb950b23-843a-45e8-bd0e-10d2c579c1cd)
 
 
 ## **Project Usage**
