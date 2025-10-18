@@ -43,10 +43,19 @@ The project can be used to:
 ## **Setup Instructions**
 
 ### 1. Clone the repository
-```bash
+    ```bash
 git clone https://github.com/erhivwor-fortune/Resilience_Watch_Disaster_Response_Analytics.git
 cd Resilience_Watch_Disaster_Response_Analytics
 
 ### 2. Create a virtual environment
+### 3. Activate virtual environment
+### 4. Install dependencies
+### 5. Set up enviroment variables
+### 6. Build and run Docker containers
+### 7. Verify database and pgAdmin
+### 8. Dashboard visualization
+
 ```bash
-python -m venv venv
+git clone https://github.com/erhivwor-fortune/Resilience_Watch_Disaster_Response_Analytics.git
+cd Resilience_Watch_Disaster_Response_Analytics
+
