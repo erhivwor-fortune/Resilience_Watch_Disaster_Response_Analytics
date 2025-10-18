@@ -28,16 +28,20 @@ Includes automated ETL pipelines built with Python and secure handling of sensit
    git clone https://github.com/erhivwor-fortune/Resilience_Watch_Disaster_Response_Analytics.git
  
 2. Create a Virtual Environment:
-   python -m venv venv
+    ```python
+   -m venv venv
 
 3. Activate virtual environment:
    # Windows
+    ```bash
    venv\Scripts\activate
 
    # Mac/Linux
+     ```bash
    source venv/bin/activate
 
 4. Install Dependencies
+    ```bash
   pip install -r requirements.txt
 
 5. Set Up Environment Variables
