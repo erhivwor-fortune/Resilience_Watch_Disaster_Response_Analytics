@@ -33,7 +33,7 @@ Includes automated ETL pipelines built with Python and secure handling of sensit
 
 3. Activate virtual environment:
 # Windows
-    ```bash
+   ```bash
    venv\Scripts\activate
    
 # Mac/Linux
