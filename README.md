@@ -50,6 +50,9 @@ The project can be used to:
     python -m venv venv
 
 ### 3. Activate virtual environment
+#### Windows
+    venv\Scripts\activate
+
 ### 4. Install dependencies
 ### 5. Set up enviroment variables
 ### 6. Build and run Docker containers
