@@ -35,10 +35,6 @@ Includes automated ETL pipelines built with Python and secure handling of sensit
 # Windows
    ```bash
    venv\Scripts\activate
-   
-# Mac/Linux
-   ```bash
-   source venv/bin/activate
 
 4. Install Dependencies
    ```bash
