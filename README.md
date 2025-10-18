@@ -43,7 +43,7 @@ The project can be used to:
 ## **Setup Instructions**
 
 ### 1. Clone the repository
-    ```bash
+```bash
 git clone https://github.com/erhivwor-fortune/Resilience_Watch_Disaster_Response_Analytics.git
 cd Resilience_Watch_Disaster_Response_Analytics
 
