@@ -61,11 +61,11 @@ The project can be used to:
 ### 5. Set up enviroment variables
 #### Create a .env file in the project root and add:
     API_URL=<FEMA_API_URL>
-DB_HOST=postgres
-DB_PORT=5432
-DB_USER=admin
-DB_PASSWORD=admin
-DB_NAME=disaster_insurance
+    DB_HOST=postgres
+    DB_PORT=5432
+    DB_USER=admin
+    DB_PASSWORD=admin
+    DB_NAME=disaster_insurance
 
 ### 6. Build and run Docker containers
     docker compose build
