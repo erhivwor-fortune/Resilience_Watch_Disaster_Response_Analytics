@@ -44,8 +44,8 @@ The project can be used to:
 
 ### 1. Clone the repository
     ```bash
-    git clone https://github.com/erhivwor-fortune/Resilience_Watch_Disaster_Response_Analytics.git
-    cd Resilience_Watch_Disaster_Response_Analytics
+git clone https://github.com/erhivwor-fortune/Resilience_Watch_Disaster_Response_Analytics.git
+cd Resilience_Watch_Disaster_Response_Analytics
 
 ### 2. Create a virtual environment
 ### 3. Activate virtual environment
