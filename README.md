@@ -48,6 +48,8 @@ The project can be used to:
         cd Resilience_Watch_Disaster_Response_Analytics
 
 ### 2. Create a virtual environment
+    python -m venv venv
+
 ### 3. Activate virtual environment
 ### 4. Install dependencies
 ### 5. Set up enviroment variables
