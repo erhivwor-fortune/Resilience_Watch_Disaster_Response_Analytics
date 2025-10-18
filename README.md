@@ -52,6 +52,8 @@ The project can be used to:
 ### 3. Activate virtual environment
 #### Windows
     venv\Scripts\activate
+#### Mac OS
+    source venv/bin/activate
 
 ### 4. Install dependencies
 ### 5. Set up enviroment variables
