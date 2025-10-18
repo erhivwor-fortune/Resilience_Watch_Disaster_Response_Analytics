@@ -32,21 +32,22 @@ Includes automated ETL pipelines built with Python and secure handling of sensit
    -m venv venv
 
 3. Activate virtual environment:
-   # Windows
-    ```bash
+# Windows
+   ```bash
    venv\Scripts\activate
 
-   # Mac/Linux
-     ```bash
+# Mac/Linux
+   ```bash
    source venv/bin/activate
 
 4. Install Dependencies
     ```bash
-  pip install -r requirements.txt
+    pip install -r requirements.txt
 
 5. Set Up Environment Variables
 Create a .env file in the project root with:
- ```bash
+
+    ```bash
    API_URL=<FEMA_API_URL>
    
    DB_HOST=postgres
