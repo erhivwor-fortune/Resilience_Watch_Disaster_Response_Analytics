@@ -59,19 +59,19 @@ Create a .env file in the project root with:
    
    DB_NAME=disaster_insurance
 
-7. Build and Run Docker Containers
- ```bash
+6. Build and Run Docker Containers
+    ```bash
    docker compose build
    docker compose up -d
 
-8. Verify Database and pgAdmin
- ```bash
-- Open pgAdmin at http://localhost:5050
-- Log in with credentials from your compose file.
-- Check that disaster_insurance database and disaster table exist.
+7. Verify Database and pgAdmin
+    ```bash
+   - Open pgAdmin at http://localhost:5050
+   - Log in with credentials from your compose file.
+   - Check that disaster_insurance database and disaster table exist.
 
 8. Run ETL Pipeline
- ```bash
+    ```bash
    python main.py
 
 This extracts data from the API and inserts it into PostgreSQL.
