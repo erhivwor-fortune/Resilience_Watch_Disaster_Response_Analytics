@@ -33,13 +33,15 @@ Includes automated ETL pipelines built with Python and secure handling of sensit
 
 3. Activate virtual environment:
 # Windows
-   ```bash
+    ```bash
    venv\Scripts\activate
-
+   
 # Mac/Linux
+   ```bash
    source venv/bin/activate
 
 4. Install Dependencies
+   ```bash
    pip install -r requirements.txt
 
 5. Set Up Environment Variables
@@ -62,12 +64,11 @@ Create a .env file in the project root with:
    docker compose up -d
 
 7. Verify Database and pgAdmin
-      - Open pgAdmin at http://localhost:5050
-      - Log in with credentials from your compose file.
-      - Check that disaster_insurance database and disaster table exist.
+   - Open pgAdmin at http://localhost:5050
+   - Log in with credentials from your compose file.
+   - Check that disaster_insurance database and disaster table exist.
 
 8. Run ETL Pipeline
-    ```bash
    python main.py
 
 This extracts data from the API and inserts it into PostgreSQL.
