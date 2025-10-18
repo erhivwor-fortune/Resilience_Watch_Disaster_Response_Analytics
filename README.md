@@ -20,6 +20,11 @@ The Disaster Response KPI Dashboard:
 
 ---
 
+### Project Architecture
+Below is the high-level architecture of the Disaster Response KPI Dashboard:
+
+
+
 ## **Project Usage**
 
 The project can be used to:
